@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Titles */
+
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+}
+
+/* Paragraphs */
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.2em;
+}
+/* Nav*/
+
+
+
+.navbar-nav {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+
+}
+
+
+
+body {
+  padding-top: 3.5rem;
+	background-color: lightgrey;
+}
+
+.index{
+
+}
+
+.contain{
+	text-align: center;
+
+}
+.back {
+	background-image: url(images/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    	padding-top: 10em;
+	padding-bottom: 10em;
+	z-index: -100;}
+
+
+.contact {
+	background-image: url(images/jogging.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	    padding-top: 10em;
+	padding-bottom: 10em;
+    	position: relative;
+	z-index: -100;
+}
+
+/*index*/
+.welcome_greeting{
+    text-align: center;
+}
+/* Add some padding and a grey background color to containers */
+.container {
+	text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+.container h3{font-size: 40px;}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=email], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: lightblue;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.social_media img{
+	width: 30px;
+	height: 20px;
+	padding: 0px 5px 0px 5px;
+}
+.social_media, .copyright {
+    clear: both;
+}
+
+.social_media p {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2px;
+}
+.copyright {
+	text-align: center;
+	margin: auto;
+	font-size: 10px;
+}
+/*index*/
+
+/*headings for each page*/
+.writing
+{
+	text-align: left;
+	padding-left: 120px;
+	display: inline-block;
+    width: 70%;
+    }
+
+.topwriting {text-align: center; padding:70px}
+
+
+.writing h2{text-align: center}
+
+ h3{
+	text-align: center;
+	font-size: 35px;
+}
+
+.writingback h2{
+	text-align: center;
+	color: white;
+}
+.writingback h3{ font-size: 35px;}
+
+
+/*headings for each page*/
+.display-3 {color:white;}
+
+
+
+.jumbotron p {color: white; text-align: center;
+}
+.jumbotron h1{text-align: center}
+
+
+video, iframe {max-width: 100%;
+		}

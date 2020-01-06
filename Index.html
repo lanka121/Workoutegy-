@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    	<link rel="icon" type="image/x-icon" href="Logo5.ico">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Germania+One|Quicksand|Raleway&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="custom.css">
+
+<title>Workoutegy</title>
+
+	</head>
+
+<body>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="chest.html">Chest</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="back.html">Back</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="arms.html">Arms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="legs.html">Legs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<main role="main">
+
+  <div class="slideshow">
+
+    		<img class="home_image" src="images/indexpic.jpg" style="width:100%;height:700px">
+    		<img class="home_image" src="images/index weight room.jpg" style="width:100%;height:700px">
+  		<img class="home_image" src="images/shoulderraise.jpg" style="width:100%;height:700px">
+
+            <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+
+            </div>
+
+      </div>
+
+
+  	<!--FROM W3SCHOOLS.COM-->
+  	<script>
+          /* TO AUTOMATICALLY TRANSITION SLIDESHOW */
+
+  		var myIndex = 0;
+  		carousel();
+
+  		function carousel() {
+    			var i;
+    			var x = document.getElementsByClassName("home_image");
+
+  			for (i = 0; i < x.length; i++) {
+      				x[i].style.display = "none";
+    			}
+    			myIndex++;
+    			if (myIndex > x.length) {myIndex = 1}
+    			x[myIndex-1].style.display = "block";
+    			setTimeout(carousel, 4000); // Change image every 2 seconds
+  		}
+
+          /* TO MANUALLY TRANSITION SLIDESHOW */
+
+          var slideIndex = 1;
+          showDivs(slideIndex);
+
+          function plusDivs(n) {
+            showDivs(slideIndex += n);
+          }
+
+          function currentDiv(n) {
+            showDivs(slideIndex = n);
+          }
+
+          function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("home_image");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" w3-white", "");
+            }
+            x[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " w3-white";
+          }
+
+  	</script>
+
+<div class="welcome_greeting">
+		<h1 style="font-size:350%;"><br>A Guide To Fitness</h1>
+
+    <h3><i>Everything You Need To Know To Get Started</i></h3>
+
+		<p>Welcome to Workoutegy, A handy workout guide that will give you the information you need to have an effective workout. <strong>Workoutegy will teach you :</strong> How to perform a workout, Which muscles are being incorporated within a workout, And the optimal amount of sets and reps that should be completed per workout.
+</p>
+	</div>
+
+    <div class = "bottom_page">
+        <center>
+            <form action="action_page.php">
+<br>
+            <div class="container" style="background-color:white">
+                <div class="container">
+                    <h3>Subscribe to our Newsletter</h3>
+                </div>
+                <input type="text" placeholder="Name" name="name" required>
+		        <input type="email" placeholder="Email Address.." name="email address" required><br>
+                <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                </label>
+                <input type="submit" value="Subscribe">
+            </div>
+
+            </form>
+        </center>
+
+<br>
+        <div class="social_media">
+		  <p>
+            <a href="https://www.facebook.com"><img id="fb" src="images/fb_icon.png"></a>
+            <a href="https://www.twitter.com"><img id="twitter" src="images/twitter_icon.png"></a>
+			<a href="https://www.instagram.com"><img id="ig" src="images/ig_icon.png"></a>
+		  </p>
+	    </div>
+<br>
+      <div class="copyright">
+      		  	&copy; 2019 Workoutegy All Rights Reserved
+      	    </div>
+<br>
+    </div>
+
+
+</body>
+</html>
